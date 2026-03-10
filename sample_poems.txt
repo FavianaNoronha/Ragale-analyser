@@ -1,0 +1,66 @@
+# Sample Ragale Poems for Testing
+
+## Example 1: Classical Ragale (Valid)
+
+ಕರಣಕ್ಕೆ ಕೈಕೊಂಡು ಹರಿವಂದು ನಂಬಿದೆನೆ
+ಮರಣವನ್ನು ನೆಗೆಳದ ದೈವದನ್ನು ಪೇಳಿದೆನೆ
+ಕರುಣಾಕರ ಪರಮೇಶ್ವರ ಕಾಪಾಡುದೆನ್ನ ಬನ್ನಿಸಿದು
+ತರುಣದಲಿ ನಿರ್ವಿಕಾರ ಹೃದಯದಲಿ ತೊಂಡಿಸಿದಿರಬೆಂದು
+
+## Example 2: Devotional Ragale (Valid)
+
+ಭಕ್ತಿಯಿಂದ ಭಗವಂತನ ಪಾದವ ಪೂಜಿಸಿದನು
+ಮುಕ್ತಿಗಾಗಿ ಮನದೊಳಗೆ ಪ್ರಾರ್ಥಿಸಿದನು
+ಶಕ್ತಿಯುತ ಮಹಾದೇವನ ನಾಮವ ಸ್ಮರಿಸಿದನು ಅವನು
+ಭಕ್ತಿಯೆಂಬ ಮಾರ್ಗದಲ್ಲಿ ನಡೆದನು ನಿತ್ಯವು ನಿರಂತರವು
+
+## Example 3: Nature Theme (Valid - Test this)
+
+ಮರಗಳ ನಡುವಿನಲ್ಲಿ ನಿಂತು ನೋಡಿದೆನು
+ಪರಿಮಳವು ಬೀಸುತಿತ್ತು ಮನವ ಸೋಜಿದೆನು
+ಹೂವುಗಳ ಸೊಬಗೆ ಕಣ್ಗಳಿಗೆ ಮದುವೆಯಾಯಿತು ಅಲ್ಲಿ
+ಪ್ರಕೃತಿಯ ಸೊಬಗನು ಹೃದಯದೊಳಗೆ ಸಂಗ್ರಹಿಸಿಕೊಂಡೆನು
+
+## Example 4: Simple Ragale (Valid - Test this)
+
+ಮಂಗಳವು ತುಂಬಿದ ಪವಿತ್ರ ದಿವಸವಾಗಿತ್ತು
+ಗಂಗೆಯ ತೀರದಲ್ಲಿ ನಿಂತು ಪ್ರಾರ್ಥಿಸಿದೆನು
+ಸಂತೋಷದ ಅಲೆಗಳು ಮನದಲ್ಲಿ ತುಂಬಿದವು ಆಗ
+ಹರಿಯ ಕೃಪೆಯಿಂದ ಆಶೀರ್ವಾದ ಪಡೆದೆನು ನಾನು
+
+---
+
+# Instructions for Testing
+
+To analyze these poems, use the analyzer:
+
+```bash
+# For individual poem (copy one example to a file)
+python3 ragale_analyzer.py poem.txt
+
+# Or use interactive mode
+python3 ragale_analyzer.py
+```
+
+Then paste one of the 4-line stanzas above.
+
+# Notes
+
+- Each example has exactly 4 lines
+- Lines 1-2 should have 12 syllables each
+- Lines 3-4 should have 16 syllables each
+- Lines 1-2 should rhyme with each other
+- Lines 3-4 should rhyme with each other
+- Standard pattern: AABB (most common)
+
+# Tips for Writing Your Own Ragale
+
+1. Start with the ending sound you want for lines 1-2
+2. Compose line 1 with exactly 12 syllables
+3. Compose line 2 with same ending sound, 12 syllables
+4. Choose a different ending sound for lines 3-4
+5. Compose lines 3-4 with 16 syllables each, matching endings
+6. Read aloud to check flow and natural pauses (yati)
+7. Run through analyzer to verify
+
+Happy composing! 🎭
